@@ -1,26 +1,25 @@
 # Tree-Based-Risk-Prediction
 
-### Hướng dẫn cài đặt 
+### Preriquirements 
 
-Để có thể sử dụng Repo này, bạn cần cài đặt Python 3 trở lên và các thư viện cần thiết trong file `requirements.txt`.
+Before you begin, you must install Python 3 and set up the environment as described below:
 
-*Cài đặt môi trường bằng:
-
+If you wish, you can create env using Anaconda / Miniconda or Python Env. Below, I'll demonstrate how I create my environment using Python's venv command.
 ```
 python3 -m venv <name_of_virtualenv>
 ```
 
-Ví dụ, cài đặt môi trường với tên là `env`:
+For instance, the name of my environment is 'env':
 ```
 python3 -m venv env
 ```
 
-Chạy `env`:
+Activate `env`:
 ```
 source env/bin/activate
 ```
 
-Cài đặt các thư viện cần thiết:
+Install the requirements library in the `requirements.txt` file:
 ```
 pip install -r requirements.txt
 ```
