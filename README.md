@@ -1,5 +1,7 @@
 # Tree-Based-Risk-Prediction
 
+Liên kết: https://docs.google.com/document/d/1qHjKRHPedF0VeUzpjWeCO5xtpNvG5ecTetsZl5xkgUI/edit?usp=sharing
+
 ### Preriquirements 
 
 Before you begin, you must install Python 3 and set up the environment as described below:
