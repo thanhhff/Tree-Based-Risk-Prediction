@@ -2,3 +2,5 @@ lifelines
 numpy
 pandas
 sklearn
+seaborn
+matplotlib
