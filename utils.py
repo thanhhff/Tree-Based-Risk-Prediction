@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import lifelines
 from sklearn.model_selection import train_test_split
 
 
@@ -28,3 +29,7 @@ def load_data_from_csv(threshold, test_size=0.2):
         X, y, test_size=test_size, random_state=42)
 
     return X_train, X_test, y_train, y_test
+
+
+def c_index(y_true, scores):
+    return lifelines.utils.concordance_index(y_true, scores)
