@@ -6,3 +6,4 @@ seaborn
 matplotlib
 pydotplus
 graphviz
+shap
