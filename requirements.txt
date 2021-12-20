@@ -4,3 +4,5 @@ pandas
 sklearn
 seaborn
 matplotlib
+pydotplus
+graphviz
