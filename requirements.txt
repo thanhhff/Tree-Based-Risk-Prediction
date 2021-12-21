@@ -2,3 +2,8 @@ lifelines
 numpy
 pandas
 sklearn
+seaborn
+matplotlib
+pydotplus
+graphviz
+shap
