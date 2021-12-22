@@ -1,5 +1,3 @@
-from decision_tree_processor import predict_fc as dt_pred
-from random_forest_processor import predict_fc as rd_pred
 import streamlit as st
 import numpy as np
 import pandas as pd
