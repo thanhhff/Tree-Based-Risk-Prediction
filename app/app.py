@@ -107,15 +107,16 @@ else:
     if predicted is False:
         st.write('Dữ liệu dùng để đưa ra dự đoán :', X_risk)
     else: 
+        st.write('Dữ liệu dùng để đưa ra dự đoán :', X_risk)
         results = np.array([])
         for i in range(label_preds.size): 
             if label_preds[i] == True: 
                 results = np.append(results, 'Tử vong', axis=None)
             else: 
                 results = np.append(results, 'Không tử vong', axis=None)
-        
-        X_risk.loc[:, 'Kết quả dự đoán'] = results
-        X_risk.loc[:, 'Xác suất tử vong'] = preds
+        y_risk = pd.DataFrame()
+        y_risk.loc[:, 'Kết quả dự đoán'] = results
+        y_risk.loc[:, 'Xác suất tử vong'] = preds
         st.write(f'Mô hình đã lựa chọn để phân lớp : {classifier_name}')
-        st.write(f'Kết quả dự đoán :', X_risk)
+        st.write(f'Kết quả dự đoán :', y_risk)
         st.sidebar.write(f'Độ chính xác: {round(acc*100, 2)}%')
