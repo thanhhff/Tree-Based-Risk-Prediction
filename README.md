@@ -30,4 +30,5 @@ pip install -r requirements.txt
 streamlit run app/app.py
 ```
 Application
+
 ![alt-text](https://github.com/thanhhff/Tree-Based-Risk-Prediction/blob/feature/data_analysis/gifs/demo.gif)
