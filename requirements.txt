@@ -8,3 +8,4 @@ pydotplus
 graphviz
 shap
 itertools
+streamlit
